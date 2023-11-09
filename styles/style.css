@@ -32,11 +32,6 @@
     list-style: none
   }
 
-span {
-    display: block;
-    position: relative;
-}
-
 .header__link {
 
 }
@@ -62,6 +57,98 @@ span {
 
 .section {
     background-color: lightgray;
+}
+
+/* intro section */
+
+.cover {
+    background-image: url("../images/cover.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    z-index: 0;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.cover__title {
+    z-index: 2;
+}
+
+.aligned-text {
+    text-align: left;
+    letter-spacing: 10px;
+}
+
+.aligned-text_center {
+    letter-spacing: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.aligned-text_right {
+    letter-spacing: 10px;
+    text-align: right;
+}
+
+.aligned-text-line1 {
+    display: block;
+    text-align: left;
+
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.aligned-text-line2 {
+    display: block;
+    text-align: center;
+}
+
+.aligned-text-line3 {
+    display: block;
+    text-align: right;
+
+    padding-bottom: 100px;
+    padding-right: 50px;
+}
+
+.bigtext {
+    font-size: 60pt;
+    font-weight: 400;
+}
+
+.cover__description {
+    text-align: right;
+
+    font-size: 17pt;
+    font-weight: 100;
+}
+
+.cover__description-text {
+    padding-right: 70px;
+    word-spacing: 15px;
+}
+
+.bet-button {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17pt;
+    background: transparent;
+    color: white;
+    border: 2px solid #FFFFFF;
 }
 
 .footer {

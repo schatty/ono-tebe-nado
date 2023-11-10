@@ -3,7 +3,7 @@
 .container {
   display: grid;
   font-family: Raleway, Arial;
-  min-width: 1440px;
+  width: 1440px;
 }
 
 .header {
@@ -46,8 +46,6 @@
 
 .header__link_active {
   text-decoration: none;
-  font-weight: bold;
-  text-shadow: 0px 2px 2px #000000;
 }
 
 .header_logo {
@@ -98,7 +96,7 @@
 }
 
 .cover__title {
-  font-size: 50pt;
+  font-size: 75pt;
   font-style: normal;
   font-weight: bold;
   position: relative;
@@ -112,7 +110,7 @@
 }
 
 .last_letter {
-  padding-left: 5px;
+  padding-left: 8px;
 }
 
 .first_letter {
@@ -133,14 +131,14 @@
 .aligned-text-line1 {
   display: block;
   text-align: left;
-  padding-top: 165px;
+  padding-top: 162px;
   padding-left: 50px;
 }
 
 .aligned-text-line2 {
   display: block;
   text-align: center;
-  padding-right: 32px;
+  padding-right: 33px;
   padding-top: 10px;
 }
 
@@ -148,9 +146,9 @@
   display: block;
   text-align: right;
 
-  padding-top: 3px;
+  padding-top: 0px;
   padding-bottom: 123px;
-  padding-right: 20px;
+  padding-right: 22px;
 }
 
 .cover__description {
@@ -188,6 +186,7 @@
   color: white;
   border: 1px solid #ffffff;
   font-weight: 100;
+  background-color: red;
 }
 
 /* cards section */

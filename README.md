@@ -1,3 +1,3 @@
 # FullStack Course. Project #1.
 
-Проект #1 "Оно тебе надо".
+Implementation of html + css layout of a given design.
